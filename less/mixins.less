@@ -1,1 +1,20 @@
 // Mixins Here
+
+
+
+.custom-btn(@bgcolor:orange, @width:200px, @fontcolor:blue){
+    display: block;
+    background-color: @bgcolor;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@fontcolor; 
+     
+     &:hover{
+       background-color:@fontcolor;
+       color:@bgcolor;
+     }
+}

@@ -17,22 +17,47 @@ h1, h2, h3, h4, h5 {
   color: @header-font-color;
 }
 
+h1{
+  font-size:4rem;
+
+  @media @phone{
+    font-size:6rem;
+  }
+}
 h2 {
   font-size: 3.2rem;
+  @media @phone{
+    font-size:4.5rem;
+  }
 }
 
 h3 {
   font-size: 2.8rem;
+
+  @media @phone{
+    font-size:4.5rem;
+  }
 }
 
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+
+  @media @phone{
+    font-size:2.6rem;
+  }
 }
 
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;  
+
+  @media @phone{
+    
+    min-width:162%;
+            
+  }
+
 }
 
