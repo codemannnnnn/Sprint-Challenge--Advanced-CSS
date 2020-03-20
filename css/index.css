@@ -150,7 +150,7 @@ h1 {
 }
 @media (max-width: 500px) {
   h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 h2 {
@@ -166,7 +166,7 @@ h3 {
 }
 @media (max-width: 500px) {
   h3 {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
 }
 p {
@@ -175,7 +175,7 @@ p {
 }
 @media (max-width: 500px) {
   p {
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 }
 .container {
@@ -185,7 +185,7 @@ p {
 }
 @media (max-width: 500px) {
   .container {
-    min-width: 162%;
+    min-width: 100%;
   }
 }
 nav {
@@ -217,11 +217,11 @@ nav .menu {
 nav .menu a {
   text-decoration: none;
   font-size: 1.4rem;
-  color: black;
+  color: #23293B;
 }
 @media (max-width: 500px) {
   nav .menu a {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 2%;
   }
 }
@@ -277,13 +277,14 @@ footer {
 .home .visit-planets h3 {
   margin-top: 11px;
 }
+@media (max-width: 500px) {
+  .home .visit-planets h3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .home .visit-planets p {
   margin-top: 13px;
-}
-@media (max-width: 500px) {
-  .home .visit-planets {
-    padding: 5%;
-  }
 }
 .home .walk {
   margin-top: 60px;
@@ -316,7 +317,7 @@ footer {
 }
 .home .walk .walk-text .btn {
   display: block;
-  background-color: black;
+  background-color: #23293B;
   margin: 0 10px 20px;
   cursor: pointer;
   width: 100px;
@@ -329,7 +330,7 @@ footer {
 }
 .home .walk .walk-text .btn:hover {
   background-color: white;
-  color: black;
+  color: #23293B;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -337,7 +338,7 @@ footer {
     margin: 0 auto;
     height: 100px;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 7%;
     font-size: 3rem;
   }
 }

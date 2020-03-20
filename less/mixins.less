@@ -1,7 +1,23 @@
 // Mixins Here
 
+//normal mixins
 
 
+.center(){
+    display:flex;
+    justify-content: center;
+}
+
+
+.pad(){
+    padding:5%;
+}
+
+
+
+
+
+//parametric mixins
 .custom-btn(@bgcolor:orange, @width:200px, @fontcolor:blue){
     display: block;
     background-color: @bgcolor;

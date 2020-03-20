@@ -3,15 +3,16 @@
 
 
 nav{
-    display:flex;
-    justify-content: center;
+    .center();
     flex-direction: column;
+    
 
   
     
 
     .headcol{
         background:rgb(233, 233, 233);
+        
         
         @media @phone{
 
@@ -23,8 +24,7 @@ nav{
     }
 
     .name{
-        display:flex;
-        justify-content: center;
+        .center();
         margin:0 auto;
         padding-top:2%;
 
@@ -38,15 +38,16 @@ nav{
         padding-bottom: 2%;
         
         
+        
     }
 
     .menu a{
         text-decoration: none;
         font-size:1.4rem;
-        color:black;
+        color:@ebony-clay;
 
         @media @phone{
-            font-size:2.5rem;
+            font-size:2rem;
             padding-top:2%;
     }
     }
@@ -60,3 +61,5 @@ nav{
 
 
 }
+
+

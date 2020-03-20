@@ -49,15 +49,18 @@
 
     h3 {
       margin-top: 11px;
+
+      @media @phone{
+        width:100%;
+        margin:0 auto;
+      }
     }
 
     p {
       margin-top: 13px;
     }
 
-    @media @phone{
-      padding:5%;
-    }
+   
   }
 
   .walk {
@@ -70,7 +73,7 @@
     @media @phone{
       display:flex;
       flex-direction: column-reverse;
-      padding:5%;
+      .pad();
     }
 
     .walk-text {
@@ -92,7 +95,7 @@
 
 
       .btn{
-        .custom-btn(@bgcolor:black, @width:100px, @fontcolor:white);
+        .custom-btn(@bgcolor:@ebony-clay, @width:100px, @fontcolor:white);
         text-align:center;
         padding:3%;
 
@@ -101,7 +104,7 @@
           margin:0 auto;
           height:100px;
           text-align: center;
-          padding-top:5%;
+          padding-top:7%;
           font-size: 3rem;
 
         }
